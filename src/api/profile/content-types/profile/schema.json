@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "Profilepicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Mobile": {
+      "type": "biginteger"
+    }
+  }
+}
